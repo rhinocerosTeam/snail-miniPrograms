@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/mark/index",
+    "pages/plan/index",
+    "pages/record/index",
+    "pages/me/index"
+  ],
+  "window":{
+    "navigationBarTitleText": "snail"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/plan/index",
+        "iconPath": "images/bottombar/nav_home.png",
+        "selectedIconPath": "images/bottombar/nav_home_s.png",
+        "text":"待办"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "iconPath": "images/bottombar/nav_home.png",
+        "selectedIconPath": "images/bottombar/nav_home_s.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/mark/index",
+        "iconPath": "images/bottombar/nav_home.png",
+        "selectedIconPath": "images/bottombar/nav_home_s.png",
+        "text": "标签"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "images/bottombar/nav_home.png",
+        "selectedIconPath": "images/bottombar/nav_home_s.png",
+        "text": "我的"
+      }]
+    
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
