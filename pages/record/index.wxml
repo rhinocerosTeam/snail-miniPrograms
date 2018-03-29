@@ -1,12 +1,15 @@
-<view class="section">
-  <scroll-view style="height: 200px;" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
-    <view id="green" class="scroll-view-item bc_green"></view>
-    <view id="red"  class="scroll-view-item bc_red"></view>
-    <view id="yellow" class="scroll-view-item bc_yellow"></view>
-    <view id="blue" class="scroll-view-item bc_blue"></view>
+<view class="section recordContainer">
+  <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{scrollTop}}">
+    <view  wx:for="{{recordList}}" wx:key="{{index}}" class="item">
+      <view>
+        称体重：52.8kg{{index}}:{{item}}
+      </view>
+      <view>
+        2小时前 完成0% 奋斗0分钟
+      </view>
+      <view>
+        瘦身减肥 10% 减肥5斤
+      </view>
+    </view>
   </scroll-view>
-  <view class="btn-area">
-    <button size="mini" bindtap="tap">click me to scroll into view </button>
-    <button size="mini" bindtap="tapMove">click me to scroll</button>
-  </view>
 </view>

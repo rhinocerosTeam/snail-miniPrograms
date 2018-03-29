@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/record/index",
     "pages/mark/index",
     "pages/plan/index",
-    "pages/record/index",
     "pages/me/index"
   ],
   "window":{
