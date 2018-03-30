@@ -1,13 +1,73 @@
 .section{
   width: 100%;
   height: 100%;
-  background: #eee!important;
+  background: #f7f6f6!important;
 }
 .recordContainer{
   width: 100%;
   height: 100%;
 }
 .item{
- background: #fff;
- margin-bottom: 10rpx;
+ display: flex;
+ flex-direction:row;
+ align-items:center;
+ justify-content:center;
+ font-size: 25rpx;
+}
+.item .time{
+  width: 70rpx;
+  height: 100%;
+  color: #8a8c8f;
+  font-size: 20rpx;
+}
+.item .box{
+  position: relative;
+  width: 600rpx;
+  border-left:2rpx solid #d3d7da; 
+  min-height: 50rpx;
+}
+.item .box::before{
+  position: absolute;
+  top: 45%;
+  content: '';
+  display: inline-block;
+  left:-7rpx;
+  width:15rpx;
+  height:15rpx;
+  border-radius: 15rpx;
+  background-color:#d3d7da; 
+}
+.item .content{
+  margin: 10rpx;
+  margin-left: 50rpx;
+  padding: 0 20rpx;
+  background: #fff;
+  width: 500rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+.item .content::before{
+  position: absolute;
+  top: 40%;
+  content: '';
+  display: inline-block;
+  left:-15rpx;
+  border-top: 15rpx solid transparent; 
+  border-right: 20rpx solid #fff; 
+  border-bottom: 15rpx solid transparent
+}
+.item .content .plan{
+  padding: 15rpx 0;
+  border-bottom: 2rpx solid #ebebeb;
+  color: #787d82;
+}
+.item .content .record{
+  padding:10rpx 0;
+  font-size: 25rpx;
+  line-height: 40rpx;
+}
+.item .content .progress{
+  color: #787d82;
+  padding: 10rpx 0 10px;
+  font-size: 20rpx;
 }
