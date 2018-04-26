@@ -1,20 +1,22 @@
 {
-  "pages":[
+  "pages": [
+    "pages/example/file/index",
+    "pages/example/location/index",
     "pages/record/index",
     "pages/mark/index",
     "pages/plan/index",
     "pages/me/index"
   ],
-  "window":{
+  "window": {
     "navigationBarTitleText": "snail"
   },
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
         "pagePath": "pages/plan/index",
         "iconPath": "images/bottombar/nav_home.png",
         "selectedIconPath": "images/bottombar/nav_home_s.png",
-        "text":"待办"
+        "text": "待办"
       },
       {
         "pagePath": "pages/record/index",
@@ -33,8 +35,8 @@
         "iconPath": "images/bottombar/nav_home.png",
         "selectedIconPath": "images/bottombar/nav_home_s.png",
         "text": "我的"
-      }]
-    
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,

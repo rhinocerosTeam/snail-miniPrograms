@@ -1,14 +1,22 @@
 <view class="section recordContainer">
   <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{scrollTop}}">
     <view  wx:for="{{recordList}}" wx:key="{{index}}" class="item">
-      <view>
-        称体重：52.8kg{{index}}:{{item}}
+      <view class="time">
+        2018-5-23
       </view>
-      <view>
-        2小时前 完成0% 奋斗0分钟
-      </view>
-      <view>
-        瘦身减肥 10% 减肥5斤
+
+      <view class="box" >
+        <view class="content" >
+          <view class="plan">
+            减肥
+          </view>
+          <view class="record">
+            称体重：52.8kg
+          </view>
+          <view class="progress">
+            0% 奋斗0分钟
+          </view>
+        </view>
       </view>
     </view>
   </scroll-view>
