@@ -1,0 +1,11 @@
+
+
+<button bindtap='img'>图片</button>
+<button bindtap='filePath'>打印预览本地图片</button>
+
+<button>录音</button>
+<button>音频播放视频</button>
+<button>音乐播放控制</button>
+<button>视频</button>
+
+

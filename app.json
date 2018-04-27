@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/example/media/index",
     "pages/example/file/index",
     "pages/example/location/index",
     "pages/record/index",
